@@ -4,6 +4,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon --exec node src/index.js",
+    "dev:flags": "nodemon --exec node src/flags.js",
     "dev:helper": "node src/helpers/index.js"
   },
   "repository": "https://github.com/dhiegoF/WebScraping.git",
@@ -15,6 +16,7 @@
   "dependencies": {
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12",
-    "fs-extra": "^10.1.0"
+    "fs-extra": "^10.1.0",
+    "wget": "^0.0.1"
   }
 }
