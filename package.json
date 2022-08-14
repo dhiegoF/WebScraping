@@ -1,0 +1,19 @@
+{
+  "name": "WebScraping",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon --exec node src/index.js"
+  },
+  "repository": "https://github.com/dhiegoF/WebScraping.git",
+  "author": "dhiegoF <dhiegogithub@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^10.1.0"
+  }
+}
